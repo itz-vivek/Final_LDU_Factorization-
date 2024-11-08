@@ -68,7 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 800px;
     /* background-image: url('istockphoto-943715716-612x612.jpg'); */
     background-size: cover;
     background-position: center;
@@ -76,11 +76,11 @@
   
   }
   
-  .container:hover{
+  .a:hover{
     scale: 1.13;
   }
   
-  .container {
+  .a {
     background: #fff; /* solid background to make text readable */
     padding: 20px;
     border-radius: 8px;
@@ -105,7 +105,7 @@
     margin: 5px;
   }
   
-  
+  /* Animation add kro input  k baddd me */
   
   button {
     padding: 8px 16px;
