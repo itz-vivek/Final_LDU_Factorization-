@@ -1,4 +1,7 @@
-// Essential ta add comments
+/* // Essential ta add comments
+
+
+// initializing a func, will contains the entered matrix size data and create a matrix
 function getMatrix() {
     const size = parseInt(document.getElementById("matrixSize").value);
     if (isNaN(size) || size < 1) {
@@ -22,7 +25,7 @@ function getMatrix() {
     }
   
     document.getElementById("calculateButton").style.display = "inline-block";
-  }
+  } */
   
   function calculateLDU() {
     const size = parseInt(document.getElementById("matrixSize").value);
