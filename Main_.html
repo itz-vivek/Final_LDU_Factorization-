@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sankho.js"></script>
+    <link rel="stylesheet" href="sankho.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LDU Factorization Calculator</h1>
+        <h3>Working: <br> <h5>We Need To Convert In Lower-Upper-Diagonal Matrix </h5></h3>
+        <br>
+        <br>
+        <br>
+        <p>Enter the size of the matrix :</p>
+        <input type="number" id="matrixSize" min="1" placeholder="Matrix Size (e.g., 3)">
+        <button onclick="generateMatrix()">Generate Matrix</button>
+    
+        <div id="matrixInput"></div>
+        <button onclick="calculateLDU()" id="calculateButton" style="display: none;">Calculate LDU</button>
+    
+        <h2>Step-Wise LDU Factorization</h2>
+        <div id="result"></div>
+      </div>
+</body>
+</html>
+
