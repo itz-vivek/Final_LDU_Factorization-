@@ -1,0 +1,123 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image:url(istockphoto-943715716-612x612.jpg);
+
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  #matrixInput, #result {
+    margin-top: 20px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    margin: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+   */
+
+
+   /* sankho.css */
+
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-image: url('istockphoto-943715716-612x612.jpg'); */
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+  
+  }
+  
+  .container:hover{
+    scale: 1.13;
+  }
+  
+  .container {
+    background: #fff; /* solid background to make text readable */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    background: linear-gradient( rgb(128, 174, 196),rgb(139, 174, 44));
+  
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  #matrixInput, #result {
+    margin-top: 20px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    margin: 5px;
+  }
+  
+  
+  
+  button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #1a1d1a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: linear-gradient(rgb(147, 139, 139),red);
+  
+  }
