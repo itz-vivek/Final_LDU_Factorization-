@@ -1,4 +1,4 @@
-function generateMatrix() {
+function getMatrix() {
     const size = parseInt(document.getElementById("matrixSize").value);
     if (isNaN(size) || size < 1) {
       alert("Please enter a valid matrix size.");
@@ -62,17 +62,17 @@ function generateMatrix() {
         for (let k = 0; k < i; k++) sum += L[j][k] * D[k][k] * U[k][i];
         L[j][i] = (matrix[j][i] - sum) / D[i][i];
       }
-  
+
       steps.push(`Step ${i + 1}: \nL:\n${printMatrix(L)}\nD:\n${printMatrix(D)}\nU:\n${printMatrix(U)}`);
     }
-  
+
     return [L, D, U];
   }
-  
+
   function printMatrix(matrix) {
     return matrix.map(row => row.map(val => val.toFixed(2)).join(" ")).join("\n");
   }
-  
+
   function displaySteps(steps) {
     const resultDiv = document.getElementById("result");
     resultDiv.innerHTML = steps.map(step => `<pre>${step}</pre>`).join("<hr>");
