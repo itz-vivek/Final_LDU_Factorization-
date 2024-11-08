@@ -1,3 +1,4 @@
+// Essential ta add comments
 function getMatrix() {
     const size = parseInt(document.getElementById("matrixSize").value);
     if (isNaN(size) || size < 1) {
