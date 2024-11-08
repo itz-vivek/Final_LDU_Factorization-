@@ -11,5 +11,7 @@ This factorization is useful for various applications in computational mathemati
 
 Features
 Decomposition Calculation: Computes the LDU factorization of a user-provided square matrix.
+
 Validation: Checks if the input matrix is decomposable using LDU factorization criteria.
+
 Matrix Operations: Provides functions to reconstruct the original matrix from its L, D, and U components for validation.
