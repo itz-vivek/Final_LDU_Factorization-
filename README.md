@@ -10,6 +10,7 @@ U (Upper triangular matrix)
 This factorization is useful for various applications in computational mathematics, including solving linear systems, simplifying matrix operations, and optimizing numerical calculations.
 
 Features
+
 Decomposition Calculation: Computes the LDU factorization of a user-provided square matrix.
 
 Validation: Checks if the input matrix is decomposable using LDU factorization criteria.
