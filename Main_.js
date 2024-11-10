@@ -1,4 +1,4 @@
-/* // Essential ta add comments
+// Essential ta add comments
 
 
 // initializing a func, will contains the entered matrix size data and create a matrix

@@ -9,5 +9,7 @@ function getMatrix() {
       alert("Please enter a valid matrix size.");
       return;
     }
-    document.write('Enter JavaScript Codes')
+    // document.write('Enter JavaScript Codes ')
+    // Redirect to another HTML page after successful validation
+    window.location.href = "index.html"; // Replace with the actual name of your HTML page
   }
